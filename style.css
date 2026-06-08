@@ -2,5 +2,42 @@
 header {
     background-color: black;
     color: white;
-    padding: 128px 16px;
+    padding: 128px 50px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.U-0N1fslo8QBtv71Iw83WQHaE8?pid=Api&h=220&P=0);
+    
+    
+}
+
+div {
+  margin: 50px;
+  font-family: "Ole", cursive;
+}
+
+.more {
+    background-color: gold;
+    width: 110px;
+    text-align: center;
+    color: rgb(42, 42, 132);
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.section1 {
+    p{
+        text-align: left;
+    }
+}
+
+.section2 {
+    text-align: right;
+
+}
+
+.section3{
+    p{
+        text-align: left;
+    }
 }
