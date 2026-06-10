@@ -1,16 +1,20 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
+    
     color: white;
     padding: 128px 50px;
+
     background-image: url(https://tse4.mm.bing.net/th/id/OIP.U-0N1fslo8QBtv71Iw83WQHaE8?pid=Api&h=220&P=0);
-    
-    
+
+}
+body {
+    background-color: rgb(24, 86, 109);
 }
 
 div {
-  margin: 50px;
-  font-family: "Ole", cursive;
+    margin: 50px;
+    font-family: "Ole", cursive;
+    
 }
 
 .more {
@@ -26,18 +30,56 @@ div {
 }
 
 .section1 {
-    p{
+    p {
         text-align: left;
+        padding-right: 50%;
     }
+    color: gold;
+    background-color: rgb(1, 50, 79);
+
 }
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  
+}
+
+
 
 .section2 {
-    text-align: right;
+    p {
+        text-align: left;
+        padding-right: 50%;
+    }
+    color: white;
 
 }
 
-.section3{
-    p{
+.section3 {
+    p {
         text-align: left;
+        padding-right: 50%;
     }
+
+    color: gold;
+    background-color: rgb(1, 50, 79);
+}
+
+.section4 {
+    p {
+        text-align: left;
+        padding-right: 50%;
+    }
+    color: white;
+}
+
+.grid-img {
+  width: 400px;
+  object-fit: cover;
+  margin: 10px;
+  border: 5px solid white;
+  border-radius: 50px;
+
+
 }
